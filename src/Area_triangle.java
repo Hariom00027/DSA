@@ -9,10 +9,10 @@ public class Area_triangle {
         int H = n1.nextInt();
 
         Scanner n2= new Scanner(System.in);
-        System.out.println("Enter the Height of the triangle");
+        System.out.println("Enter the base of the triangle");
         int B = n2.nextInt();
 
-
+        System.out.println("The area of the given triangle is: "+ (B*H)/2);
 
     }
 
